@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  h1 {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: $playfair;
+    font-size: $xx-large;
+    font-style: $italic;
+    color: $white;
+    position: relative;
+    top: 40vh;
+    transform: translateY(-50%);
+  }
+  .scrolldown-link {
+    display: inline-block;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    color: $white !important;
+    
+    &:hover {
+      color: $fuzzy-wuzzy !important;
+    }
+  };
+}
+// .header .fa-solid {
+//   color: $white !important;
+// }

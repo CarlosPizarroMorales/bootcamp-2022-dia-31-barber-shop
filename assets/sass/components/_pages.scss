@@ -1,0 +1,33 @@
+.page-selector {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $platinum;
+  font-family: $roboto;
+  font-weight: $font-light;
+  color: $light-gray;
+  
+  a, span {
+    color: $raisin-black !important;
+    text-decoration: none;
+    border: 1px solid $platinum;
+    padding: 0.5rem 1rem;
+    background: $white;
+  }
+
+  span {
+    background-color: $nickel;
+    color: $white !important;
+  }
+
+  a:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  a:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+

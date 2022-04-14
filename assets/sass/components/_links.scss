@@ -1,0 +1,9 @@
+.nav-link {
+  color: $white !important;
+  &:hover {
+    color: $fuzzy-wuzzy !important;
+  }
+  &:active {
+    color: $fuzzy-wuzzy !important;
+  }
+}

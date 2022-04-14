@@ -1,0 +1,26 @@
+aside {
+  .rounded-circle {
+    width: 11rem;
+  }
+
+  .about-me {
+    color: $spanish-pink;
+    margin-bottom: 0;
+    font-weight: $font-light;
+
+    .name {
+      font-family: $playfair;
+      font-size: $x-large;
+      font-style: $italic;
+      font-weight: $black;
+      color: $eerie-black;
+      min-width: max-content;
+    }
+
+    &.description {
+      font-size: $small;
+      line-height: 2.5rem;
+      color: $light-gray;
+    }
+  }
+}
