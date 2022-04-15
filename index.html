@@ -11,7 +11,6 @@
   <!-- metadata descriptiva del documento -->
   <meta name="author" content="Carlos Pizarro Morales">
   <meta name="curso" content="Frontend Trainee Vuejs 0013">
-  <!-- ! cambiar datos en los sigientes 2 meta READ & DELETE this comment -->
   <meta name="description" content="Desafío 2 de la unidad 3-'Sass y el patron 7-1' del módulo 3-'Desarrollo de la interfaz de usuario web' del Bootcamp 2022">
   <meta name="details" content="Ejercicio que pone a prueba la incorporación de bootstrap a través de Sass usando BEM y el patrón 7-1">
 
@@ -34,6 +33,8 @@
 </head>
 
 <body>
+
+  <!--? hero y navbar -->
   <header class="header">
     <nav class="navbar navbar-expand-lg navbar-dark px-md-5">
       <div class="container px-md-5">
@@ -60,6 +61,7 @@
     <!-- </div> -->
   </header>
 
+  <!--? main: content del post -->
   <main class="container px-5" id="main">
     <figure>
       <p>12 de abril de 2018</p>
@@ -71,6 +73,7 @@
 
   <hr>
 
+  <!--? aside: información de contacto y about me -->
   <aside class="container p-5 d-flex align-items-center">
     <img src="./assets/img/naomi-thai.png" alt="" class="rounded-circle me-5">
     <div class="about-me me-5">
@@ -78,9 +81,10 @@
       <p class="about-me account">@Naothai</p>
       <p class="about-me web">depelos.com</p>
     </div>
-    <p class="about-me description ">Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus vehicula non. Praesent tincidunt convallis ipsum, quis convallis metus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus vehicula non quis convallis metus.</p>
+    <p class="about-me description d-none d-md-block">Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus vehicula non. Praesent tincidunt convallis ipsum, quis convallis metus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus vehicula non quis convallis metus.</p>
   </aside>
 
+  <!--? footer selector de página y footer-logo -->
   <footer>
     <div class="page-selector">
       <a href="#">Anterior</a>
@@ -94,10 +98,8 @@
     </div>
   </footer>
 
-  <!-- Eliminar si no es necesario -->
+  <!-- bundle BS JS - Eliminar si no es necesario -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <!-- Mi Javascript -->
-  <script src="./assets/js/index . js"></script>
 </body>
 
 </html>

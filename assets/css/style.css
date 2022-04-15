@@ -11232,7 +11232,7 @@ aside .about-me.description {
 .button {
   font-family: "Roboto", sans-serif;
   background-color: #6c6e70;
-  border-color: #6c6e70;
+  border: none;
   box-shadow: none;
   color: #fff;
   margin: 3rem 0;
