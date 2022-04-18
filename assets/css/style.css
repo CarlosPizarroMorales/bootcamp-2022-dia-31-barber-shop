@@ -11146,6 +11146,25 @@ header {
   background-position: 80%;
 }
 
+@media (max-width: 360px) {
+  .header h1, .header .h1 {
+    width: 75% !important;
+    font-size: 30px !important;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+  }
+
+  .navbar-brand {
+    width: 25%;
+  }
+
+  .navbar-brand img {
+    width: 100% !important;
+  }
+}
 .header {
   position: relative;
 }
