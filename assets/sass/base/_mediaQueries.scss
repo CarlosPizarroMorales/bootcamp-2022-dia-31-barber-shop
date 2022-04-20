@@ -1,11 +1,10 @@
-@media (max-width: 490px) {
+@media (max-width: 650px) {
   .header h1 {
-    width: 75% !important;
+    width: 60% !important;
     font-size: $x-large !important;
     text-align: center;
-  }
-  .navbar-toggler {
-    border: none !important;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
   }
   .navbar-brand {
     width: 25%;
@@ -14,8 +13,13 @@
     width: 100% !important;
 
   }
-
   .main p:last-child {
     font-size: $small;
+  }
+  .rounded-pill {
+    font-size: $small;
+  }
+  .about-me {
+    text-align: center;
   }
 }

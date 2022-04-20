@@ -4359,7 +4359,7 @@ textarea.form-control-lg {
   border-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29'  stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.55);
@@ -4394,7 +4394,7 @@ textarea.form-control-lg {
   border-color: rgba(255, 255, 255, 0.1);
 }
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FFF' stroke-miterlimit='10' stroke-width='4' d='M4 9h25M4 18h25M4 27h25'/%3e%3c/svg%3e");
 }
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.55);
@@ -11127,14 +11127,14 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: medium;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -11143,18 +11143,16 @@ header {
   background-image: url("../img/post-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 80%;
+  background-position: 100%;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 650px) {
   .header h1, .header .h1 {
-    width: 75% !important;
+    width: 60% !important;
     font-size: 30px !important;
     text-align: center;
-  }
-
-  .navbar-toggler {
-    border: none !important;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
   }
 
   .navbar-brand {
@@ -11167,6 +11165,14 @@ header {
 
   .main p:last-child {
     font-size: 14px;
+  }
+
+  .rounded-pill {
+    font-size: 14px;
+  }
+
+  .about-me {
+    text-align: center;
   }
 }
 .header {
@@ -11198,7 +11204,9 @@ header {
 
 .navbar {
   background-color: #121619;
-  height: 8vh;
+}
+.navbar-toggler {
+  border: none !important;
 }
 .navbar img {
   width: 7vw;
@@ -11222,6 +11230,7 @@ main p:first-child {
 
 aside .rounded-circle {
   width: 11rem;
+  border-color: #6c6e70;
 }
 aside .about-me {
   color: #ecbcba;
@@ -11259,9 +11268,7 @@ aside .about-me.description {
   border: none;
   box-shadow: none;
   color: #fff;
-  margin: 3rem 0;
-  padding: 1rem;
-  margin-right: 1rem;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
@@ -11282,7 +11289,7 @@ aside .about-me.description {
   align-items: center;
   background: #e6e7e7;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #d1d1d1;
 }
 .page-selector a, .page-selector span {

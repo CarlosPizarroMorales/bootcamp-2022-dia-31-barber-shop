@@ -1,6 +1,10 @@
 .navbar {
   background-color: $eerie-black;
-  height: 8vh;
+
+  &-toggler {
+    border: none !important;
+  }
+  
   img {
     width: 7vw;
   }
