@@ -11146,7 +11146,7 @@ header {
   background-position: 80%;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 490px) {
   .header h1, .header .h1 {
     width: 75% !important;
     font-size: 30px !important;
@@ -11164,12 +11164,16 @@ header {
   .navbar-brand img {
     width: 100% !important;
   }
+
+  .main p:last-child {
+    font-size: 14px;
+  }
 }
 .header {
   position: relative;
 }
 .header h1, .header .h1 {
-  width: 45%;
+  width: 50%;
   margin: auto;
   text-align: center;
   word-wrap: break-word;
@@ -11234,7 +11238,8 @@ aside .about-me .name {
 }
 aside .about-me.description {
   font-size: 14px;
-  line-height: 2.5rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
   color: #d1d1d1;
 }
 

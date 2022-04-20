@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 490px) {
   .header h1 {
     width: 75% !important;
     font-size: $x-large !important;
@@ -15,5 +15,7 @@
 
   }
 
-
+  .main p:last-child {
+    font-size: $small;
+  }
 }
