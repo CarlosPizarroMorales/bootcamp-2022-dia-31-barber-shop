@@ -6,8 +6,7 @@
   background: $platinum;
   font-family: $roboto;
   font-weight: $font-regular;
-  color: $light-gray;
-  
+  color: $light-gray; 
   a, span {
     color: $raisin-black !important;
     text-decoration: none;
@@ -15,12 +14,10 @@
     padding: 0.5rem 1rem;
     background: $white;
   }
-
   span {
     background-color: $nickel;
     color: $white !important;
   }
-
   a:first-child {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
